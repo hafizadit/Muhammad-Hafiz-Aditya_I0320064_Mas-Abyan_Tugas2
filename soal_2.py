@@ -8,6 +8,8 @@ alasan_2 = "kegiatan memotret dapat membuat saya merasa ter-refresh, karena hidu
 tanggal_lahir = 17
 bulan_lahir = 7
 tahun_lahir = 2002
+univ = "Universitas Sebelas Maret"
+prodi = "Teknik Industri"
 
 #Ini rumus menghitung umur
 import datetime
@@ -19,7 +21,11 @@ umur_hari = umur_bulan * 30
 
 #Ini tempat perintah print
 print("\n====================\n   Identitas Diri\n====================")
-print("\nHai, perkenalkan nama saya",nama,". Saya lahir di", tempat_lahir,"Pada",tanggal_lahir,"-",bulan_lahir,"-",tahun_lahir)
-print("\nTepat hari ini saya berumur", round(umur_tahun, 2),"tahun, atau", round(umur_bulan, 2),"dalam bulan, atau",round(umur_hari, 2),"dalam hari")
-print("\nSaya memiliki 2 hobi, yakni", hobi, "Saya sangat suka membaca buku", alasan_1,"Sedangkan alasan saya menyukai fotografi ialah", alasan_2)
-
+print("\nHai, perkenalkan nama saya",nama)
+print("Saya lahir di", tempat_lahir,"Pada",tanggal_lahir,"-",bulan_lahir,"-",tahun_lahir,)
+print("Tepat hari ini saya berumur", round(umur_tahun, 2),"tahun, atau", round(umur_bulan, 2),"dalam bulan, atau",round(umur_hari, 2),"dalam hari")
+print("\nSaya memiliki 2 hobi, yakni", hobi)
+print("Saya sangat suka membaca buku", alasan_1)
+print("Sedangkan alasan saya menyukai fotografi ialah", alasan_2)
+print("\nSaat ini, saya sedang melanjutkan studi saya di", univ,"pada program studi", prodi)
+print("\n====================\n       Sekian\n====================")

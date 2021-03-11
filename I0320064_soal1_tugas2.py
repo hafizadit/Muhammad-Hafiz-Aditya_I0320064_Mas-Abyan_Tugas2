@@ -48,3 +48,11 @@ reamur = float(input("Masukkan suhu dalam Reamur :"))
 kelvin = (5/4 * reamur) + 273
 
 print("\nSuhu dalam reamur =", reamur, "derajat reamur\nSehingga suhu dalam Kelvin =", kelvin,"derajat kelvin")
+
+print("")
+print("="*50)
+judul = "Program Selesai"
+center = judul.center(50)
+print(center)
+print("="*50)
+print("")

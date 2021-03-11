@@ -1,5 +1,5 @@
 #Menampilkan judul
-print("\n==============================\n  Konversi Farenheit ke Celcius\n==============================\n")
+print("\n==============================\nKonversi Farenheit ke Celcius\n==============================\n")
 
 #Input suhu
 f = float(input("Masukkan suhu dalam farenheit :"))

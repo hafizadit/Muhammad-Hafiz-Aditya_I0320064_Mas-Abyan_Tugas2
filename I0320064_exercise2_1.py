@@ -1,3 +1,5 @@
+# INI TAMBAHAN
+
 #Tipe data boolean
 x = True
 print(x)
